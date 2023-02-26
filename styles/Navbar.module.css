@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     overflow: auto;
+    z-index: 5;
   
     text-align: left;
     background: rgb(26,43, 87);
