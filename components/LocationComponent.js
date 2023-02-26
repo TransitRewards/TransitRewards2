@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import {getLatLong} from "../services/LocationUtil";
 // import Map from "./Map";
 import dynamic from "next/dynamic";
+import styles from '../styles/Location.module.css'
 
 
 const MapWithNoSSR = dynamic(() => import("./Map"), {
@@ -32,18 +33,24 @@ const Location = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="address">Enter your address:</label>
+    <div className = {styles.Contents}>
+      <div className = {styles.Header}>
+      <p>TransitRewards</p>
+      </div>
+      <form className = {styles.Submission} onSubmit={handleSubmit}>
         <input
+          className= {styles.TextBox}
           type="text"
           id="address"
+          placeholder="Enter Address"
           value={address}
           onChange={handleAddressChange}
         />
-        <button type="submit">Submit</button>
+        <button className = {styles.SubmitButton} type="submit">&#62;</button>
       </form>
-      {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> }
+      <div className = {styles.MapImage}> 
+        {onClickMap ? <MapWithNoSSR loc={{lat:40.5008405, lng:-74.4496061}} /> : <p>Type in Map</p> }
+      </div>
     </div>
   );
 };

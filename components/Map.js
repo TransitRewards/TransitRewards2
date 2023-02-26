@@ -11,19 +11,19 @@ export function ChangeView({ coords }) {
 }
 
 export default function Map(props) {
-  const [geoData, setGeoData] = useState({ lat: 64.536634, lng: 16.779852 });
+  const [geoData, setGeoData] = useState({ lat:40.5008405, lng:-74.4496061 });
 
   const center = [props.loc.lat, props.loc.lng];
 
   return (
-    <MapContainer center={center} zoom={12} style={{ height: '100vh' }}>
+    <MapContainer center={center} zoom={20} style={{ height: '100vh' }}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {geoData.lat && geoData.lng && (
+      {/* {geoData.lat && geoData.lng && (
         <Marker position={[geoData.lat, geoData.lng]} />
-      )}
+      )} */}
       <ChangeView coords={center} />
     </MapContainer>
   );
