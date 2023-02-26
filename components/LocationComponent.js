@@ -73,11 +73,9 @@ const Location = () => {
           &#62;
         </button>
       </form>
-      {onClickMap ? (
-        <MapWithNoSSR loc={{ lat: 0, lng: 0 }} />
-      ) : (
-        <p>Type in Map</p>
-      )}
+      <div className = {styles.MapImage}> 
+        {onClickMap ? <MapWithNoSSR loc={{lat:40.5008405, lng:-74.4496061}} /> : <div/>}
+      </div>
       ;{/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
       {/* {console.log(getBusStopsInRange(40.8268412,-74.1261215,2))} */}
       {displayResults ? (
@@ -89,7 +87,6 @@ const Location = () => {
       ) : (
         <></>
       )}
-      {/* <input type="text" ref="someName" placeholder="Bid" /> */}
       {/* {console.log("here")} */}
       {/* {console.log(getBusStopsInRange(40.5,-74.5,2))} */}
     </div>
