@@ -1,1 +1,1142 @@
-{'1': {'stop_name': '30TH ST. PHL.', 'stop_lat': '39.956565', 'stop_lon': '-75.182327'}, '2': {'stop_name': 'ABSECON', 'stop_lat': '39.424333', 'stop_lon': '-74.502094'}, '3': {'stop_name': 'ALLENDALE', 'stop_lat': '41.030902', 'stop_lon': '-74.130957'}, '4': {'stop_name': 'ALLENHURST', 'stop_lat': '40.237659', 'stop_lon': '-74.006769'}, '5': {'stop_name': 'ANDERSON STREET', 'stop_lat': '40.894458', 'stop_lon': '-74.043781'}, '6': {'stop_name': 'ANNANDALE', 'stop_lat': '40.645173', 'stop_lon': '-74.878569'}, '8': {'stop_name': 'ASBURY PARK', 'stop_lat': '40.215359', 'stop_lon': '-74.014786'}, '9': {'stop_name': 'ATCO', 'stop_lat': '39.783547', 'stop_lon': '-74.907588'}, '10': {'stop_name': 'ATLANTIC CITY', 'stop_lat': '39.363299', 'stop_lon': '-74.441486'}, '11': {'stop_name': 'AVENEL', 'stop_lat': '40.577620', 'stop_lon': '-74.277530'}, '12': {'stop_name': 'BASKING RIDGE', 'stop_lat': '40.711378', 'stop_lon': '-74.555270'}, '13': {'stop_name': 'BAY HEAD', 'stop_lat': '40.077178', 'stop_lon': '-74.046183'}, '14': {'stop_name': 'BAY STREET', 'stop_lat': '40.808178', 'stop_lon': '-74.208681'}, '15': {'stop_name': 'BELMAR', 'stop_lat': '40.180590', 'stop_lon': '-74.027301'}, '17': {'stop_name': 'BERKELEY HEIGHTS', 'stop_lat': '40.682345', 'stop_lon': '-74.442649'}, '18': {'stop_name': 'BERNARDSVILLE', 'stop_lat': '40.716845', 'stop_lon': '-74.571023'}, '19': {'stop_name': 'BLOOMFIELD', 'stop_lat': '40.792709', 'stop_lon': '-74.200043'}, '20': {'stop_name': 'BOONTON', 'stop_lat': '40.903378', 'stop_lon': '-74.407736'}, '21': {'stop_name': 'BOUND BROOK', 'stop_lat': '40.560929', 'stop_lon': '-74.530617'}, '22': {'stop_name': 'BRADLEY BEACH', 'stop_lat': '40.203751', 'stop_lon': '-74.018891'}, '23': {'stop_name': 'BRICK CHURCH', 'stop_lat': '40.765134', 'stop_lon': '-74.218612'}, '24': {'stop_name': 'BRIDGEWATER', 'stop_lat': '40.559904', 'stop_lon': '-74.551741'}, '25': {'stop_name': 'BROADWAY', 'stop_lat': '40.922505', 'stop_lon': '-74.115236'}, '26': {'stop_name': 'CAMPBELL HALL', 'stop_lat': '41.450917', 'stop_lon': '-74.266554'}, '27': {'stop_name': 'CHATHAM', 'stop_lat': '40.740137', 'stop_lon': '-74.384812'}, '28': {'stop_name': 'CHERRY HILL', 'stop_lat': '39.928447', 'stop_lon': '-75.041661'}, '29': {'stop_name': 'CLIFTON', 'stop_lat': '40.867998', 'stop_lon': '-74.153206'}, '30': {'stop_name': 'CONVENT', 'stop_lat': '40.779038', 'stop_lon': '-74.443435'}, '31': {'stop_name': 'ROSELLE PARK', 'stop_lat': '40.667150', 'stop_lon': '-74.266323'}, '32': {'stop_name': 'CRANFORD', 'stop_lat': '40.655523', 'stop_lon': '-74.303226'}, '33': {'stop_name': 'DELAWANNA', 'stop_lat': '40.831369', 'stop_lon': '-74.131262'}, '34': {'stop_name': 'DENVILLE', 'stop_lat': '40.883900', 'stop_lon': '-74.481513'}, '35': {'stop_name': 'DOVER', 'stop_lat': '40.883415', 'stop_lon': '-74.555887'}, '36': {'stop_name': 'DUNELLEN', 'stop_lat': '40.590869', 'stop_lon': '-74.463043'}, '37': {'stop_name': 'EAST ORANGE', 'stop_lat': '40.760977', 'stop_lon': '-74.210464'}, '38': {'stop_name': 'EDISON STATION', 'stop_lat': '40.519148', 'stop_lon': '-74.410972'}, '39': {'stop_name': 'EGG HARBOR', 'stop_lat': '39.526441', 'stop_lon': '-74.648028'}, '40': {'stop_name': 'ELBERON', 'stop_lat': '40.265292', 'stop_lon': '-73.997620'}, '41': {'stop_name': 'ELIZABETH', 'stop_lat': '40.667857', 'stop_lon': '-74.215174'}, '42': {'stop_name': 'EMERSON', 'stop_lat': '40.975036', 'stop_lon': '-74.027474'}, '43': {'stop_name': 'ESSEX STREET', 'stop_lat': '40.878973', 'stop_lon': '-74.051893'}, '44': {'stop_name': 'FANWOOD', 'stop_lat': '40.641060', 'stop_lon': '-74.385003'}, '45': {'stop_name': 'FAR HILLS', 'stop_lat': '40.685710', 'stop_lon': '-74.633734'}, '46': {'stop_name': 'GARFIELD', 'stop_lat': '40.866669', 'stop_lon': '-74.105560'}, '47': {'stop_name': 'GARWOOD', 'stop_lat': '40.652569', 'stop_lon': '-74.324794'}, '48': {'stop_name': 'GILLETTE', 'stop_lat': '40.678251', 'stop_lon': '-74.468317'}, '49': {'stop_name': 'GLADSTONE', 'stop_lat': '40.720284', 'stop_lon': '-74.666371'}, '50': {'stop_name': 'GLEN RIDGE', 'stop_lat': '40.800590', 'stop_lon': '-74.204655'}, '51': {'stop_name': 'GLEN ROCK BORO HALL', 'stop_lat': '40.961370', 'stop_lon': '-74.129300'}, '52': {'stop_name': 'GLEN ROCK MAIN LINE', 'stop_lat': '40.962206', 'stop_lon': '-74.133485'}, '54': {'stop_name': 'HACKETTSTOWN', 'stop_lat': '40.851444', 'stop_lon': '-74.835352'}, '55': {'stop_name': 'HAMMONTON', 'stop_lat': '39.631673', 'stop_lon': '-74.799460'}, '57': {'stop_name': 'HARRIMAN', 'stop_lat': '41.293354', 'stop_lon': '-74.139870'}, '58': {'stop_name': 'HAWTHORNE', 'stop_lat': '40.942539', 'stop_lon': '-74.152411'}, '59': {'stop_name': 'HAZLET', 'stop_lat': '40.415385', 'stop_lon': '-74.190393'}, '60': {'stop_name': 'HIGH BRIDGE', 'stop_lat': '40.666884', 'stop_lon': '-74.895863'}, '61': {'stop_name': 'HIGHLAND AVENUE', 'stop_lat': '40.766863', 'stop_lon': '-74.243744'}, '62': {'stop_name': 'HILLSDALE', 'stop_lat': '41.002414', 'stop_lon': '-74.041033'}, '63': {'stop_name': 'HOBOKEN', 'stop_lat': '40.734843', 'stop_lon': '-74.028046'}, '64': {'stop_name': 'HOHOKUS', 'stop_lat': '40.997369', 'stop_lon': '-74.113521'}, '66': {'stop_name': 'KINGSLAND', 'stop_lat': '40.810121', 'stop_lon': '-74.117334'}, '67': {'stop_name': 'LAKE HOPATCONG', 'stop_lat': '40.904219', 'stop_lon': '-74.665697'}, '68': {'stop_name': 'LEBANON', 'stop_lat': '40.636903', 'stop_lon': '-74.835766'}, '69': {'stop_name': 'LINCOLN PARK', 'stop_lat': '40.924138', 'stop_lon': '-74.301826'}, '70': {'stop_name': 'LINDEN', 'stop_lat': '40.629485', 'stop_lon': '-74.251772'}, '71': {'stop_name': 'LINDENWOLD', 'stop_lat': '39.833809', 'stop_lon': '-75.000314'}, '72': {'stop_name': 'LITTLE FALLS', 'stop_lat': '40.880669', 'stop_lon': '-74.235372'}, '73': {'stop_name': 'LITTLE SILVER', 'stop_lat': '40.326715', 'stop_lon': '-74.041054'}, '74': {'stop_name': 'LONG BRANCH', 'stop_lat': '40.297145', 'stop_lon': '-73.988331'}, '75': {'stop_name': 'LYNDHURST', 'stop_lat': '40.816473', 'stop_lon': '-74.124164'}, '76': {'stop_name': 'LYONS', 'stop_lat': '40.684844', 'stop_lon': '-74.549470'}, '77': {'stop_name': 'MADISON', 'stop_lat': '40.757028', 'stop_lon': '-74.415105'}, '78': {'stop_name': 'MAHWAH', 'stop_lat': '41.094416', 'stop_lon': '-74.146620'}, '79': {'stop_name': 'MANASQUAN', 'stop_lat': '40.120573', 'stop_lon': '-74.047688'}, '81': {'stop_name': 'MAPLEWOOD', 'stop_lat': '40.731149', 'stop_lon': '-74.275427'}, '83': {'stop_name': 'METROPARK', 'stop_lat': '40.568640', 'stop_lon': '-74.329394'}, '84': {'stop_name': 'METUCHEN', 'stop_lat': '40.540736', 'stop_lon': '-74.360671'}, '85': {'stop_name': 'MIDDLETOWN NJ', 'stop_lat': '40.389780', 'stop_lon': '-74.116131'}, '86': {'stop_name': 'MIDDLETOWN NY', 'stop_lat': '41.457488', 'stop_lon': '-74.370390'}, '87': {'stop_name': 'MILLBURN', 'stop_lat': '40.725622', 'stop_lon': '-74.303755'}, '88': {'stop_name': 'MILLINGTON', 'stop_lat': '40.673513', 'stop_lon': '-74.523606'}, '89': {'stop_name': 'MONTCLAIR HEIGHTS', 'stop_lat': '40.857536', 'stop_lon': '-74.202500'}, '90': {'stop_name': 'MONTVALE', 'stop_lat': '41.040879', 'stop_lon': '-74.029152'}, '91': {'stop_name': 'MORRIS PLAINS', 'stop_lat': '40.828637', 'stop_lon': '-74.478197'}, '92': {'stop_name': 'MORRISTOWN', 'stop_lat': '40.797113', 'stop_lon': '-74.474086'}, '93': {'stop_name': 'MOUNT OLIVE', 'stop_lat': '40.907376', 'stop_lon': '-74.730653'}, '94': {'stop_name': 'MOUNT TABOR', 'stop_lat': '40.875904', 'stop_lon': '-74.481915'}, '95': {'stop_name': 'MOUNTAIN AVENUE', 'stop_lat': '40.848715', 'stop_lon': '-74.205306'}, '96': {'stop_name': 'MOUNTAIN LAKES', 'stop_lat': '40.885947', 'stop_lon': '-74.433604'}, '97': {'stop_name': 'MOUNTAIN STATION', 'stop_lat': '40.755365', 'stop_lon': '-74.253024'}, '98': {'stop_name': 'MOUNTAIN VIEW', 'stop_lat': '40.914402', 'stop_lon': '-74.268158'}, '99': {'stop_name': 'MURRAY HILL', 'stop_lat': '40.695068', 'stop_lon': '-74.403134'}, '100': {'stop_name': 'NANUET', 'stop_lat': '41.090015', 'stop_lon': '-74.014794'}, '101': {'stop_name': 'NETCONG', 'stop_lat': '40.897552', 'stop_lon': '-74.707317'}, '102': {'stop_name': 'NETHERWOOD', 'stop_lat': '40.629148', 'stop_lon': '-74.403455'}, '103': {'stop_name': 'NEW BRUNSWICK', 'stop_lat': '40.497278', 'stop_lon': '-74.445751'}, '104': {'stop_name': 'NEW PROVIDENCE', 'stop_lat': '40.712022', 'stop_lon': '-74.386501'}, '105': {'stop_name': 'NEW YORK PENN STATION', 'stop_lat': '40.750046', 'stop_lon': '-73.992358'}, '106': {'stop_name': 'NEWARK BROAD ST', 'stop_lat': '40.747621', 'stop_lon': '-74.171943'}, '107': {'stop_name': 'NEWARK PENN STATION', 'stop_lat': '40.734221', 'stop_lon': '-74.164554'}, '108': {'stop_name': 'NORTH BRANCH', 'stop_lat': '40.592020', 'stop_lon': '-74.683802'}, '109': {'stop_name': 'NORTH ELIZABETH', 'stop_lat': '40.680265', 'stop_lon': '-74.206165'}, '110': {'stop_name': 'NEW BRIDGE LANDING', 'stop_lat': '40.910856', 'stop_lon': '-74.035044'}, '111': {'stop_name': 'ORADELL', 'stop_lat': '40.953478', 'stop_lon': '-74.029983'}, '112': {'stop_name': 'ORANGE', 'stop_lat': '40.771883', 'stop_lon': '-74.233103'}, '113': {'stop_name': 'OTISVILLE', 'stop_lat': '41.471784', 'stop_lon': '-74.529212'}, '114': {'stop_name': 'PARK RIDGE', 'stop_lat': '41.032305', 'stop_lon': '-74.036164'}, '115': {'stop_name': 'PASSAIC', 'stop_lat': '40.849411', 'stop_lon': '-74.133933'}, '116': {'stop_name': 'PATERSON', 'stop_lat': '40.914887', 'stop_lon': '-74.167330'}, '117': {'stop_name': 'PEAPACK', 'stop_lat': '40.708794', 'stop_lon': '-74.658469'}, '118': {'stop_name': 'PEARL RIVER', 'stop_lat': '41.058181', 'stop_lon': '-74.022320'}, '119': {'stop_name': 'PERTH AMBOY', 'stop_lat': '40.509398', 'stop_lon': '-74.273752'}, '120': {'stop_name': 'PLAINFIELD', 'stop_lat': '40.618425', 'stop_lon': '-74.420163'}, '121': {'stop_name': 'PLAUDERVILLE', 'stop_lat': '40.884916', 'stop_lon': '-74.102695'}, '122': {'stop_name': 'POINT PLEASANT', 'stop_lat': '40.092718', 'stop_lon': '-74.048191'}, '123': {'stop_name': 'PORT JERVIS', 'stop_lat': '41.374899', 'stop_lon': '-74.694622'}, '124': {'stop_name': 'PRINCETON', 'stop_lat': '40.342088', 'stop_lon': '-74.658870'}, '125': {'stop_name': 'PRINCETON JCT.', 'stop_lat': '40.316316', 'stop_lon': '-74.623753'}, '126': {'stop_name': 'RADBURN', 'stop_lat': '40.939914', 'stop_lon': '-74.121617'}, '127': {'stop_name': 'RAHWAY', 'stop_lat': '40.606338', 'stop_lon': '-74.276692'}, '128': {'stop_name': 'RAMSEY', 'stop_lat': '41.056422', 'stop_lon': '-74.141877'}, '129': {'stop_name': 'RARITAN', 'stop_lat': '40.571005', 'stop_lon': '-74.634364'}, '130': {'stop_name': 'RED BANK', 'stop_lat': '40.348284', 'stop_lon': '-74.074538'}, '131': {'stop_name': 'RIDGEWOOD', 'stop_lat': '40.980629', 'stop_lon': '-74.120592'}, '132': {'stop_name': 'RIVER EDGE', 'stop_lat': '40.935146', 'stop_lon': '-74.029140'}, '134': {'stop_name': 'RUTHERFORD', 'stop_lat': '40.828248', 'stop_lon': '-74.100563'}, '135': {'stop_name': 'SALISBURY MILLS-CORNWALL', 'stop_lat': '41.437073', 'stop_lon': '-74.101871'}, '136': {'stop_name': 'SHORT HILLS', 'stop_lat': '40.725249', 'stop_lon': '-74.323754'}, '137': {'stop_name': 'SLOATSBURG', 'stop_lat': '41.157138', 'stop_lon': '-74.191307'}, '138': {'stop_name': 'SOMERVILLE', 'stop_lat': '40.566075', 'stop_lon': '-74.613970'}, '139': {'stop_name': 'SOUTH AMBOY', 'stop_lat': '40.484308', 'stop_lon': '-74.280140'}, '140': {'stop_name': 'SOUTH ORANGE', 'stop_lat': '40.745952', 'stop_lon': '-74.260538'}, '141': {'stop_name': 'SPRING LAKE', 'stop_lat': '40.150557', 'stop_lon': '-74.035481'}, '142': {'stop_name': 'SPRING VALLEY', 'stop_lat': '41.111978', 'stop_lon': '-74.043991'}, '143': {'stop_name': 'STIRLING', 'stop_lat': '40.674579', 'stop_lon': '-74.493723'}, '144': {'stop_name': 'SUFFERN', 'stop_lat': '41.113540', 'stop_lon': '-74.153442'}, '145': {'stop_name': 'SUMMIT', 'stop_lat': '40.716549', 'stop_lon': '-74.357807'}, '146': {'stop_name': 'TETERBORO', 'stop_lat': '40.864858', 'stop_lon': '-74.062676'}, '147': {'stop_name': 'TOWACO', 'stop_lat': '40.922809', 'stop_lon': '-74.343842'}, '148': {'stop_name': 'TRENTON TRANSIT CENTER', 'stop_lat': '40.218515', 'stop_lon': '-74.753926'}, '149': {'stop_name': 'TUXEDO', 'stop_lat': '41.194208', 'stop_lon': '-74.184460'}, '150': {'stop_name': 'UPPER MONTCLAIR', 'stop_lat': '40.842004', 'stop_lon': '-74.209368'}, '151': {'stop_name': 'WALDWICK', 'stop_lat': '41.012734', 'stop_lon': '-74.123412'}, '152': {'stop_name': 'WALNUT STREET', 'stop_lat': '40.817218', 'stop_lon': '-74.209630'}, '153': {'stop_name': 'WATCHUNG AVENUE', 'stop_lat': '40.829514', 'stop_lon': '-74.206934'}, '154': {'stop_name': 'WATSESSING AVENUE', 'stop_lat': '40.782743', 'stop_lon': '-74.198451'}, '155': {'stop_name': 'WESTFIELD', 'stop_lat': '40.649448', 'stop_lon': '-74.347629'}, '156': {'stop_name': 'WESTWOOD', 'stop_lat': '40.990817', 'stop_lon': '-74.032696'}, '157': {'stop_name': 'WHITE HOUSE', 'stop_lat': '40.615611', 'stop_lon': '-74.770660'}, '158': {'stop_name': 'WOODBRIDGE', 'stop_lat': '40.556610', 'stop_lon': '-74.277751'}, '159': {'stop_name': 'WOODCLIFF LAKE', 'stop_lat': '41.021078', 'stop_lon': '-74.040775'}, '160': {'stop_name': 'WOOD-RIDGE', 'stop_lat': '40.843974', 'stop_lon': '-74.078719'}, '6900': {'stop_name': 'MILITARY PARK LIGHT RAIL STATION', 'stop_lat': '40.737449', 'stop_lon': '-74.170883'}, '6907': {'stop_name': 'DAVENPORT AVENUE LIGHT RAIL STATION', 'stop_lat': '40.772390', 'stop_lon': '-74.178272'}, '6957': {'stop_name': 'NORFOLK STREET LIGHT RAIL STATION', 'stop_lat': '40.745319', 'stop_lon': '-74.183033'}, '6966': {'stop_name': 'PARK AVENUE NEWARK LIGHT RAIL STATION', 'stop_lat': '40.758560', 'stop_lon': '-74.184941'}, '6995': {'stop_name': 'WARREN STREET LIGHT RAIL STATION', 'stop_lat': '40.742439', 'stop_lon': '-74.181183'}, '6997': {'stop_name': 'WASHINGTON STREET LIGHT RAIL STATION', 'stop_lat': '40.738347', 'stop_lon': '-74.174081'}, '9878': {'stop_name': 'PORT IMPERIAL HBLR STATION', 'stop_lat': '40.775919', 'stop_lon': '-74.012921'}, '14984': {'stop_name': 'BLOOMFIELD AVENUE LIGHT RAIL STATION', 'stop_lat': '40.765460', 'stop_lon': '-74.179863'}, '14986': {'stop_name': 'ORANGE STREET LIGHT RAIL STATION', 'stop_lat': '40.750629', 'stop_lon': '-74.184951'}, '17699': {'stop_name': 'LINCOLN HARBOR LIGHT RAIL STATION', 'stop_lat': '40.761399', 'stop_lon': '-74.024000'}, '26316': {'stop_name': 'BRANCH BROOK PARK LIGHT RAIL STATION', 'stop_lat': '40.779638', 'stop_lon': '-74.174752'}, '26326': {'stop_name': 'PENN STATION LIGHT RAIL DEPARTURE', 'stop_lat': '40.734810', 'stop_lon': '-74.163603'}, '32905': {'stop_name': 'HAMILTON', 'stop_lat': '40.255309', 'stop_lon': '-74.704120'}, '32906': {'stop_name': 'JERSEY AVE.', 'stop_lat': '40.476912', 'stop_lon': '-74.467363'}, '36994': {'stop_name': 'EXCHANGE PLACE LIGHT RAIL STATION', 'stop_lat': '40.716009', 'stop_lon': '-74.034092'}, '36995': {'stop_name': 'ESSEX STREET LIGHT RAIL STATION', 'stop_lat': '40.712838', 'stop_lon': '-74.036082'}, '36996': {'stop_name': 'MARIN BOULEVARD LIGHT RAIL STATION', 'stop_lat': '40.714428', 'stop_lon': '-74.043241'}, '36997': {'stop_name': 'JERSEY AVENUE LIGHT RAIL STATION', 'stop_lat': '40.714978', 'stop_lon': '-74.048491'}, '36998': {'stop_name': 'LIBERTY STATE PARK-RIDE LIGHT RAIL STA', 'stop_lat': '40.710378', 'stop_lon': '-74.055812'}, '36999': {'stop_name': 'GARFIELD AVENUE LIGHT RAIL STATION', 'stop_lat': '40.710509', 'stop_lon': '-74.071120'}, '37000': {'stop_name': 'MLK DRIVE LIGHT RAIL STATION', 'stop_lat': '40.712008', 'stop_lon': '-74.077323'}, '37001': {'stop_name': 'WEST SIDE AVENUE LIGHT RAIL STATION', 'stop_lat': '40.714548', 'stop_lon': '-74.087581'}, '37002': {'stop_name': 'RICHARD STREET LIGHT RAIL STATION', 'stop_lat': '40.699118', 'stop_lon': '-74.078643'}, '37003': {'stop_name': 'DANFORTH AVENUE LIGHT RAIL STATION', 'stop_lat': '40.692357', 'stop_lon': '-74.087262'}, '37004': {'stop_name': '45TH STREET LIGHT RAIL STATION', 'stop_lat': '40.678670', 'stop_lon': '-74.101673'}, '37005': {'stop_name': '34TH STREET LIGHT RAIL STATION', 'stop_lat': '40.671778', 'stop_lon': '-74.107493'}, '37169': {'stop_name': 'ABERDEEN-MATAWAN', 'stop_lat': '40.420161', 'stop_lon': '-74.223702'}, '37376': {'stop_name': 'HARBORSIDE LIGHT RAIL STATION', 'stop_lat': '40.719519', 'stop_lon': '-74.034003'}, '37377': {'stop_name': 'HARSIMUS COVE LIGHT RAIL STATION', 'stop_lat': '40.722668', 'stop_lon': '-74.037281'}, '37378': {'stop_name': 'NEWPORT LIGHT RAIL STATION', 'stop_lat': '40.726819', 'stop_lon': '-74.036233'}, '37953': {'stop_name': 'NEWARK AIRPORT RAILROAD STATION', 'stop_lat': '40.704415', 'stop_lon': '-74.190717'}, '38064': {'stop_name': 'SILVER LAKE LIGHT RAIL STATION', 'stop_lat': '40.780287', 'stop_lon': '-74.180343'}, '38065': {'stop_name': 'GROVE STREET LIGHT RAIL STATION', 'stop_lat': '40.780317', 'stop_lon': '-74.187931'}, '38081': {'stop_name': 'MSU', 'stop_lat': '40.869782', 'stop_lon': '-74.197439'}, '38105': {'stop_name': 'UNION', 'stop_lat': '40.683663', 'stop_lon': '-74.238605'}, '38174': {'stop_name': 'FRANK R LAUTENBERG SECAUCUS LOWER LEVEL', 'stop_lat': '40.761188', 'stop_lon': '-74.075821'}, '38187': {'stop_name': 'FRANK R LAUTENBERG SECAUCUS UPPER LEVEL', 'stop_lat': '40.761188', 'stop_lon': '-74.075821'}, '38229': {'stop_name': '22ND STREET LIGHT RAIL STATION', 'stop_lat': '40.661277', 'stop_lon': '-74.116410'}, '38291': {'stop_name': 'TRENTON TRANSIT CENTER LIGHT RAIL STA', 'stop_lat': '40.218348', 'stop_lon': '-74.755194'}, '38292': {'stop_name': 'HAMILTON AVENUE LIGHT RAIL STATION', 'stop_lat': '40.211928', 'stop_lon': '-74.755882'}, '38293': {'stop_name': 'CASS STREET LIGHT RAIL STATION', 'stop_lat': '40.205409', 'stop_lon': '-74.754313'}, '38294': {'stop_name': 'BORDENTOWN LIGHT RAIL STATION', 'stop_lat': '40.148110', 'stop_lon': '-74.716271'}, '38295': {'stop_name': 'ROEBLING LIGHT RAIL STATION', 'stop_lat': '40.116909', 'stop_lon': '-74.770202'}, '38296': {'stop_name': 'FLORENCE LIGHT RAIL STATION', 'stop_lat': '40.100048', 'stop_lon': '-74.805112'}, '38297': {'stop_name': 'BURLINGTON TOWNE CTR LIGHT RAIL STATION', 'stop_lat': '40.077358', 'stop_lon': '-74.859421'}, '38298': {'stop_name': 'BURLINGTON SOUTH LIGHT RAIL STATION', 'stop_lat': '40.074558', 'stop_lon': '-74.868981'}, '38299': {'stop_name': 'BEVERLY/EDGEWATER PARK LIGHT RAIL STA', 'stop_lat': '40.061120', 'stop_lon': '-74.915131'}, '38300': {'stop_name': 'DELANCO LIGHT RAIL STATION', 'stop_lat': '40.048068', 'stop_lon': '-74.950280'}, '38301': {'stop_name': 'RIVERSIDE LIGHT RAIL STATION', 'stop_lat': '40.039219', 'stop_lon': '-74.958842'}, '38302': {'stop_name': 'CINNAMINSON LIGHT RAIL STATION', 'stop_lat': '40.016557', 'stop_lon': '-74.999942'}, '38303': {'stop_name': 'RIVERTON LIGHT RAIL STATION', 'stop_lat': '40.008939', 'stop_lon': '-75.013082'}, '38304': {'stop_name': 'PALMYRA LIGHT RAIL STATION', 'stop_lat': '40.004659', 'stop_lon': '-75.020391'}, '38305': {'stop_name': 'ROUTE 73/PENNSAUKEN LIGHT RAIL STATION', 'stop_lat': '39.993109', 'stop_lon': '-75.039610'}, '38306': {'stop_name': '36TH STREET LIGHT RAIL STATION', 'stop_lat': '39.960960', 'stop_lon': '-75.079622'}, '38307': {'stop_name': 'WALTER RAND TRANSPORTATION CTR', 'stop_lat': '39.943258', 'stop_lon': '-75.120210'}, '38308': {'stop_name': 'COOPER STREET/RUTGERS LIGHT RAIL STATION', 'stop_lat': '39.947598', 'stop_lon': '-75.124070'}, '38309': {'stop_name': 'AQUARIUM LIGHT RAIL STATION', 'stop_lat': '39.945658', 'stop_lon': '-75.128682'}, '38310': {'stop_name': 'ENTERTAINMENT CENTER LIGHT RAIL STATION', 'stop_lat': '39.940940', 'stop_lon': '-75.128473'}, '38417': {'stop_name': 'RAMSEY ROUTE 17 STATION', 'stop_lat': '41.075130', 'stop_lon': '-74.145485'}, '38441': {'stop_name': '2ND STREET LIGHT RAIL STATION', 'stop_lat': '40.741740', 'stop_lon': '-74.042821'}, '38442': {'stop_name': '9TH STREET LIGHT RAIL STATION', 'stop_lat': '40.748867', 'stop_lon': '-74.038522'}, '38578': {'stop_name': 'BERGENLINE AVE', 'stop_lat': '40.782225', 'stop_lon': '-74.022271'}, '38579': {'stop_name': 'TONNELLE AVENUE LIGHT RAIL STATION', 'stop_lat': '40.787330', 'stop_lon': '-74.031263'}, '39130': {'stop_name': 'BROAD STREET LIGHT RAIL STATION', 'stop_lat': '40.747209', 'stop_lon': '-74.171510'}, '39131': {'stop_name': 'RIVERFRONT STADIUM LIGHT RAIL STATION', 'stop_lat': '40.745590', 'stop_lon': '-74.169202'}, '39132': {'stop_name': 'WASHINGTON PARK LIGHT RAIL STATION', 'stop_lat': '40.743938', 'stop_lon': '-74.169853'}, '39133': {'stop_name': 'ATLANTIC STREET LIGHT RAIL STATION', 'stop_lat': '40.744160', 'stop_lon': '-74.168491'}, '39134': {'stop_name': 'NJPAC/CENTRE STREET LIGHT RAIL STATION', 'stop_lat': '40.739498', 'stop_lon': '-74.165580'}, '39348': {'stop_name': 'HOBOKEN TERMINAL LIGHT RAIL STATION', 'stop_lat': '40.734059', 'stop_lon': '-74.029192'}, '39472': {'stop_name': 'MOUNT ARLINGTON', 'stop_lat': '40.896590', 'stop_lon': '-74.632731'}, '39635': {'stop_name': 'WAYNE/ROUTE 23 TRANSIT CENTER [RR]', 'stop_lat': '40.900254', 'stop_lon': '-74.256971'}, '42545': {'stop_name': 'PENN STATION LIGHT RAIL ARRIVAL', 'stop_lat': '40.734810', 'stop_lon': '-74.163603'}, '42673': {'stop_name': '8TH STREET LIGHT RAIL STATION', 'stop_lat': '40.654298', 'stop_lon': '-74.129142'}, '43288': {'stop_name': 'PENNSAUKEN TRANSIT CENTER LIGHT RAIL STA', 'stop_lat': '39.978276', 'stop_lon': '-75.061962'}, '43298': {'stop_name': 'PENNSAUKEN TRANSIT CENTER', 'stop_lat': '39.977769', 'stop_lon': '-75.061796'}, '43599': {'stop_name': 'WESMONT', 'stop_lat': '40.854979', 'stop_lon': '-74.096951'}}
+{
+  "1": {
+    "stop_name": "30TH ST. PHL.",
+    "stop_lat": "39.956565",
+    "stop_lon": "-75.182327"
+  },
+  "2": {
+    "stop_name": "ABSECON",
+    "stop_lat": "39.424333",
+    "stop_lon": "-74.502094"
+  },
+  "3": {
+    "stop_name": "ALLENDALE",
+    "stop_lat": "41.030902",
+    "stop_lon": "-74.130957"
+  },
+  "4": {
+    "stop_name": "ALLENHURST",
+    "stop_lat": "40.237659",
+    "stop_lon": "-74.006769"
+  },
+  "5": {
+    "stop_name": "ANDERSON STREET",
+    "stop_lat": "40.894458",
+    "stop_lon": "-74.043781"
+  },
+  "6": {
+    "stop_name": "ANNANDALE",
+    "stop_lat": "40.645173",
+    "stop_lon": "-74.878569"
+  },
+  "8": {
+    "stop_name": "ASBURY PARK",
+    "stop_lat": "40.215359",
+    "stop_lon": "-74.014786"
+  },
+  "9": {
+    "stop_name": "ATCO",
+    "stop_lat": "39.783547",
+    "stop_lon": "-74.907588"
+  },
+  "10": {
+    "stop_name": "ATLANTIC CITY",
+    "stop_lat": "39.363299",
+    "stop_lon": "-74.441486"
+  },
+  "11": {
+    "stop_name": "AVENEL",
+    "stop_lat": "40.577620",
+    "stop_lon": "-74.277530"
+  },
+  "12": {
+    "stop_name": "BASKING RIDGE",
+    "stop_lat": "40.711378",
+    "stop_lon": "-74.555270"
+  },
+  "13": {
+    "stop_name": "BAY HEAD",
+    "stop_lat": "40.077178",
+    "stop_lon": "-74.046183"
+  },
+  "14": {
+    "stop_name": "BAY STREET",
+    "stop_lat": "40.808178",
+    "stop_lon": "-74.208681"
+  },
+  "15": {
+    "stop_name": "BELMAR",
+    "stop_lat": "40.180590",
+    "stop_lon": "-74.027301"
+  },
+  "17": {
+    "stop_name": "BERKELEY HEIGHTS",
+    "stop_lat": "40.682345",
+    "stop_lon": "-74.442649"
+  },
+  "18": {
+    "stop_name": "BERNARDSVILLE",
+    "stop_lat": "40.716845",
+    "stop_lon": "-74.571023"
+  },
+  "19": {
+    "stop_name": "BLOOMFIELD",
+    "stop_lat": "40.792709",
+    "stop_lon": "-74.200043"
+  },
+  "20": {
+    "stop_name": "BOONTON",
+    "stop_lat": "40.903378",
+    "stop_lon": "-74.407736"
+  },
+  "21": {
+    "stop_name": "BOUND BROOK",
+    "stop_lat": "40.560929",
+    "stop_lon": "-74.530617"
+  },
+  "22": {
+    "stop_name": "BRADLEY BEACH",
+    "stop_lat": "40.203751",
+    "stop_lon": "-74.018891"
+  },
+  "23": {
+    "stop_name": "BRICK CHURCH",
+    "stop_lat": "40.765134",
+    "stop_lon": "-74.218612"
+  },
+  "24": {
+    "stop_name": "BRIDGEWATER",
+    "stop_lat": "40.559904",
+    "stop_lon": "-74.551741"
+  },
+  "25": {
+    "stop_name": "BROADWAY",
+    "stop_lat": "40.922505",
+    "stop_lon": "-74.115236"
+  },
+  "26": {
+    "stop_name": "CAMPBELL HALL",
+    "stop_lat": "41.450917",
+    "stop_lon": "-74.266554"
+  },
+  "27": {
+    "stop_name": "CHATHAM",
+    "stop_lat": "40.740137",
+    "stop_lon": "-74.384812"
+  },
+  "28": {
+    "stop_name": "CHERRY HILL",
+    "stop_lat": "39.928447",
+    "stop_lon": "-75.041661"
+  },
+  "29": {
+    "stop_name": "CLIFTON",
+    "stop_lat": "40.867998",
+    "stop_lon": "-74.153206"
+  },
+  "30": {
+    "stop_name": "CONVENT",
+    "stop_lat": "40.779038",
+    "stop_lon": "-74.443435"
+  },
+  "31": {
+    "stop_name": "ROSELLE PARK",
+    "stop_lat": "40.667150",
+    "stop_lon": "-74.266323"
+  },
+  "32": {
+    "stop_name": "CRANFORD",
+    "stop_lat": "40.655523",
+    "stop_lon": "-74.303226"
+  },
+  "33": {
+    "stop_name": "DELAWANNA",
+    "stop_lat": "40.831369",
+    "stop_lon": "-74.131262"
+  },
+  "34": {
+    "stop_name": "DENVILLE",
+    "stop_lat": "40.883900",
+    "stop_lon": "-74.481513"
+  },
+  "35": {
+    "stop_name": "DOVER",
+    "stop_lat": "40.883415",
+    "stop_lon": "-74.555887"
+  },
+  "36": {
+    "stop_name": "DUNELLEN",
+    "stop_lat": "40.590869",
+    "stop_lon": "-74.463043"
+  },
+  "37": {
+    "stop_name": "EAST ORANGE",
+    "stop_lat": "40.760977",
+    "stop_lon": "-74.210464"
+  },
+  "38": {
+    "stop_name": "EDISON STATION",
+    "stop_lat": "40.519148",
+    "stop_lon": "-74.410972"
+  },
+  "39": {
+    "stop_name": "EGG HARBOR",
+    "stop_lat": "39.526441",
+    "stop_lon": "-74.648028"
+  },
+  "40": {
+    "stop_name": "ELBERON",
+    "stop_lat": "40.265292",
+    "stop_lon": "-73.997620"
+  },
+  "41": {
+    "stop_name": "ELIZABETH",
+    "stop_lat": "40.667857",
+    "stop_lon": "-74.215174"
+  },
+  "42": {
+    "stop_name": "EMERSON",
+    "stop_lat": "40.975036",
+    "stop_lon": "-74.027474"
+  },
+  "43": {
+    "stop_name": "ESSEX STREET",
+    "stop_lat": "40.878973",
+    "stop_lon": "-74.051893"
+  },
+  "44": {
+    "stop_name": "FANWOOD",
+    "stop_lat": "40.641060",
+    "stop_lon": "-74.385003"
+  },
+  "45": {
+    "stop_name": "FAR HILLS",
+    "stop_lat": "40.685710",
+    "stop_lon": "-74.633734"
+  },
+  "46": {
+    "stop_name": "GARFIELD",
+    "stop_lat": "40.866669",
+    "stop_lon": "-74.105560"
+  },
+  "47": {
+    "stop_name": "GARWOOD",
+    "stop_lat": "40.652569",
+    "stop_lon": "-74.324794"
+  },
+  "48": {
+    "stop_name": "GILLETTE",
+    "stop_lat": "40.678251",
+    "stop_lon": "-74.468317"
+  },
+  "49": {
+    "stop_name": "GLADSTONE",
+    "stop_lat": "40.720284",
+    "stop_lon": "-74.666371"
+  },
+  "50": {
+    "stop_name": "GLEN RIDGE",
+    "stop_lat": "40.800590",
+    "stop_lon": "-74.204655"
+  },
+  "51": {
+    "stop_name": "GLEN ROCK BORO HALL",
+    "stop_lat": "40.961370",
+    "stop_lon": "-74.129300"
+  },
+  "52": {
+    "stop_name": "GLEN ROCK MAIN LINE",
+    "stop_lat": "40.962206",
+    "stop_lon": "-74.133485"
+  },
+  "54": {
+    "stop_name": "HACKETTSTOWN",
+    "stop_lat": "40.851444",
+    "stop_lon": "-74.835352"
+  },
+  "55": {
+    "stop_name": "HAMMONTON",
+    "stop_lat": "39.631673",
+    "stop_lon": "-74.799460"
+  },
+  "57": {
+    "stop_name": "HARRIMAN",
+    "stop_lat": "41.293354",
+    "stop_lon": "-74.139870"
+  },
+  "58": {
+    "stop_name": "HAWTHORNE",
+    "stop_lat": "40.942539",
+    "stop_lon": "-74.152411"
+  },
+  "59": {
+    "stop_name": "HAZLET",
+    "stop_lat": "40.415385",
+    "stop_lon": "-74.190393"
+  },
+  "60": {
+    "stop_name": "HIGH BRIDGE",
+    "stop_lat": "40.666884",
+    "stop_lon": "-74.895863"
+  },
+  "61": {
+    "stop_name": "HIGHLAND AVENUE",
+    "stop_lat": "40.766863",
+    "stop_lon": "-74.243744"
+  },
+  "62": {
+    "stop_name": "HILLSDALE",
+    "stop_lat": "41.002414",
+    "stop_lon": "-74.041033"
+  },
+  "63": {
+    "stop_name": "HOBOKEN",
+    "stop_lat": "40.734843",
+    "stop_lon": "-74.028046"
+  },
+  "64": {
+    "stop_name": "HOHOKUS",
+    "stop_lat": "40.997369",
+    "stop_lon": "-74.113521"
+  },
+  "66": {
+    "stop_name": "KINGSLAND",
+    "stop_lat": "40.810121",
+    "stop_lon": "-74.117334"
+  },
+  "67": {
+    "stop_name": "LAKE HOPATCONG",
+    "stop_lat": "40.904219",
+    "stop_lon": "-74.665697"
+  },
+  "68": {
+    "stop_name": "LEBANON",
+    "stop_lat": "40.636903",
+    "stop_lon": "-74.835766"
+  },
+  "69": {
+    "stop_name": "LINCOLN PARK",
+    "stop_lat": "40.924138",
+    "stop_lon": "-74.301826"
+  },
+  "70": {
+    "stop_name": "LINDEN",
+    "stop_lat": "40.629485",
+    "stop_lon": "-74.251772"
+  },
+  "71": {
+    "stop_name": "LINDENWOLD",
+    "stop_lat": "39.833809",
+    "stop_lon": "-75.000314"
+  },
+  "72": {
+    "stop_name": "LITTLE FALLS",
+    "stop_lat": "40.880669",
+    "stop_lon": "-74.235372"
+  },
+  "73": {
+    "stop_name": "LITTLE SILVER",
+    "stop_lat": "40.326715",
+    "stop_lon": "-74.041054"
+  },
+  "74": {
+    "stop_name": "LONG BRANCH",
+    "stop_lat": "40.297145",
+    "stop_lon": "-73.988331"
+  },
+  "75": {
+    "stop_name": "LYNDHURST",
+    "stop_lat": "40.816473",
+    "stop_lon": "-74.124164"
+  },
+  "76": {
+    "stop_name": "LYONS",
+    "stop_lat": "40.684844",
+    "stop_lon": "-74.549470"
+  },
+  "77": {
+    "stop_name": "MADISON",
+    "stop_lat": "40.757028",
+    "stop_lon": "-74.415105"
+  },
+  "78": {
+    "stop_name": "MAHWAH",
+    "stop_lat": "41.094416",
+    "stop_lon": "-74.146620"
+  },
+  "79": {
+    "stop_name": "MANASQUAN",
+    "stop_lat": "40.120573",
+    "stop_lon": "-74.047688"
+  },
+  "81": {
+    "stop_name": "MAPLEWOOD",
+    "stop_lat": "40.731149",
+    "stop_lon": "-74.275427"
+  },
+  "83": {
+    "stop_name": "METROPARK",
+    "stop_lat": "40.568640",
+    "stop_lon": "-74.329394"
+  },
+  "84": {
+    "stop_name": "METUCHEN",
+    "stop_lat": "40.540736",
+    "stop_lon": "-74.360671"
+  },
+  "85": {
+    "stop_name": "MIDDLETOWN NJ",
+    "stop_lat": "40.389780",
+    "stop_lon": "-74.116131"
+  },
+  "86": {
+    "stop_name": "MIDDLETOWN NY",
+    "stop_lat": "41.457488",
+    "stop_lon": "-74.370390"
+  },
+  "87": {
+    "stop_name": "MILLBURN",
+    "stop_lat": "40.725622",
+    "stop_lon": "-74.303755"
+  },
+  "88": {
+    "stop_name": "MILLINGTON",
+    "stop_lat": "40.673513",
+    "stop_lon": "-74.523606"
+  },
+  "89": {
+    "stop_name": "MONTCLAIR HEIGHTS",
+    "stop_lat": "40.857536",
+    "stop_lon": "-74.202500"
+  },
+  "90": {
+    "stop_name": "MONTVALE",
+    "stop_lat": "41.040879",
+    "stop_lon": "-74.029152"
+  },
+  "91": {
+    "stop_name": "MORRIS PLAINS",
+    "stop_lat": "40.828637",
+    "stop_lon": "-74.478197"
+  },
+  "92": {
+    "stop_name": "MORRISTOWN",
+    "stop_lat": "40.797113",
+    "stop_lon": "-74.474086"
+  },
+  "93": {
+    "stop_name": "MOUNT OLIVE",
+    "stop_lat": "40.907376",
+    "stop_lon": "-74.730653"
+  },
+  "94": {
+    "stop_name": "MOUNT TABOR",
+    "stop_lat": "40.875904",
+    "stop_lon": "-74.481915"
+  },
+  "95": {
+    "stop_name": "MOUNTAIN AVENUE",
+    "stop_lat": "40.848715",
+    "stop_lon": "-74.205306"
+  },
+  "96": {
+    "stop_name": "MOUNTAIN LAKES",
+    "stop_lat": "40.885947",
+    "stop_lon": "-74.433604"
+  },
+  "97": {
+    "stop_name": "MOUNTAIN STATION",
+    "stop_lat": "40.755365",
+    "stop_lon": "-74.253024"
+  },
+  "98": {
+    "stop_name": "MOUNTAIN VIEW",
+    "stop_lat": "40.914402",
+    "stop_lon": "-74.268158"
+  },
+  "99": {
+    "stop_name": "MURRAY HILL",
+    "stop_lat": "40.695068",
+    "stop_lon": "-74.403134"
+  },
+  "100": {
+    "stop_name": "NANUET",
+    "stop_lat": "41.090015",
+    "stop_lon": "-74.014794"
+  },
+  "101": {
+    "stop_name": "NETCONG",
+    "stop_lat": "40.897552",
+    "stop_lon": "-74.707317"
+  },
+  "102": {
+    "stop_name": "NETHERWOOD",
+    "stop_lat": "40.629148",
+    "stop_lon": "-74.403455"
+  },
+  "103": {
+    "stop_name": "NEW BRUNSWICK",
+    "stop_lat": "40.497278",
+    "stop_lon": "-74.445751"
+  },
+  "104": {
+    "stop_name": "NEW PROVIDENCE",
+    "stop_lat": "40.712022",
+    "stop_lon": "-74.386501"
+  },
+  "105": {
+    "stop_name": "NEW YORK PENN STATION",
+    "stop_lat": "40.750046",
+    "stop_lon": "-73.992358"
+  },
+  "106": {
+    "stop_name": "NEWARK BROAD ST",
+    "stop_lat": "40.747621",
+    "stop_lon": "-74.171943"
+  },
+  "107": {
+    "stop_name": "NEWARK PENN STATION",
+    "stop_lat": "40.734221",
+    "stop_lon": "-74.164554"
+  },
+  "108": {
+    "stop_name": "NORTH BRANCH",
+    "stop_lat": "40.592020",
+    "stop_lon": "-74.683802"
+  },
+  "109": {
+    "stop_name": "NORTH ELIZABETH",
+    "stop_lat": "40.680265",
+    "stop_lon": "-74.206165"
+  },
+  "110": {
+    "stop_name": "NEW BRIDGE LANDING",
+    "stop_lat": "40.910856",
+    "stop_lon": "-74.035044"
+  },
+  "111": {
+    "stop_name": "ORADELL",
+    "stop_lat": "40.953478",
+    "stop_lon": "-74.029983"
+  },
+  "112": {
+    "stop_name": "ORANGE",
+    "stop_lat": "40.771883",
+    "stop_lon": "-74.233103"
+  },
+  "113": {
+    "stop_name": "OTISVILLE",
+    "stop_lat": "41.471784",
+    "stop_lon": "-74.529212"
+  },
+  "114": {
+    "stop_name": "PARK RIDGE",
+    "stop_lat": "41.032305",
+    "stop_lon": "-74.036164"
+  },
+  "115": {
+    "stop_name": "PASSAIC",
+    "stop_lat": "40.849411",
+    "stop_lon": "-74.133933"
+  },
+  "116": {
+    "stop_name": "PATERSON",
+    "stop_lat": "40.914887",
+    "stop_lon": "-74.167330"
+  },
+  "117": {
+    "stop_name": "PEAPACK",
+    "stop_lat": "40.708794",
+    "stop_lon": "-74.658469"
+  },
+  "118": {
+    "stop_name": "PEARL RIVER",
+    "stop_lat": "41.058181",
+    "stop_lon": "-74.022320"
+  },
+  "119": {
+    "stop_name": "PERTH AMBOY",
+    "stop_lat": "40.509398",
+    "stop_lon": "-74.273752"
+  },
+  "120": {
+    "stop_name": "PLAINFIELD",
+    "stop_lat": "40.618425",
+    "stop_lon": "-74.420163"
+  },
+  "121": {
+    "stop_name": "PLAUDERVILLE",
+    "stop_lat": "40.884916",
+    "stop_lon": "-74.102695"
+  },
+  "122": {
+    "stop_name": "POINT PLEASANT",
+    "stop_lat": "40.092718",
+    "stop_lon": "-74.048191"
+  },
+  "123": {
+    "stop_name": "PORT JERVIS",
+    "stop_lat": "41.374899",
+    "stop_lon": "-74.694622"
+  },
+  "124": {
+    "stop_name": "PRINCETON",
+    "stop_lat": "40.342088",
+    "stop_lon": "-74.658870"
+  },
+  "125": {
+    "stop_name": "PRINCETON JCT.",
+    "stop_lat": "40.316316",
+    "stop_lon": "-74.623753"
+  },
+  "126": {
+    "stop_name": "RADBURN",
+    "stop_lat": "40.939914",
+    "stop_lon": "-74.121617"
+  },
+  "127": {
+    "stop_name": "RAHWAY",
+    "stop_lat": "40.606338",
+    "stop_lon": "-74.276692"
+  },
+  "128": {
+    "stop_name": "RAMSEY",
+    "stop_lat": "41.056422",
+    "stop_lon": "-74.141877"
+  },
+  "129": {
+    "stop_name": "RARITAN",
+    "stop_lat": "40.571005",
+    "stop_lon": "-74.634364"
+  },
+  "130": {
+    "stop_name": "RED BANK",
+    "stop_lat": "40.348284",
+    "stop_lon": "-74.074538"
+  },
+  "131": {
+    "stop_name": "RIDGEWOOD",
+    "stop_lat": "40.980629",
+    "stop_lon": "-74.120592"
+  },
+  "132": {
+    "stop_name": "RIVER EDGE",
+    "stop_lat": "40.935146",
+    "stop_lon": "-74.029140"
+  },
+  "134": {
+    "stop_name": "RUTHERFORD",
+    "stop_lat": "40.828248",
+    "stop_lon": "-74.100563"
+  },
+  "135": {
+    "stop_name": "SALISBURY MILLS-CORNWALL",
+    "stop_lat": "41.437073",
+    "stop_lon": "-74.101871"
+  },
+  "136": {
+    "stop_name": "SHORT HILLS",
+    "stop_lat": "40.725249",
+    "stop_lon": "-74.323754"
+  },
+  "137": {
+    "stop_name": "SLOATSBURG",
+    "stop_lat": "41.157138",
+    "stop_lon": "-74.191307"
+  },
+  "138": {
+    "stop_name": "SOMERVILLE",
+    "stop_lat": "40.566075",
+    "stop_lon": "-74.613970"
+  },
+  "139": {
+    "stop_name": "SOUTH AMBOY",
+    "stop_lat": "40.484308",
+    "stop_lon": "-74.280140"
+  },
+  "140": {
+    "stop_name": "SOUTH ORANGE",
+    "stop_lat": "40.745952",
+    "stop_lon": "-74.260538"
+  },
+  "141": {
+    "stop_name": "SPRING LAKE",
+    "stop_lat": "40.150557",
+    "stop_lon": "-74.035481"
+  },
+  "142": {
+    "stop_name": "SPRING VALLEY",
+    "stop_lat": "41.111978",
+    "stop_lon": "-74.043991"
+  },
+  "143": {
+    "stop_name": "STIRLING",
+    "stop_lat": "40.674579",
+    "stop_lon": "-74.493723"
+  },
+  "144": {
+    "stop_name": "SUFFERN",
+    "stop_lat": "41.113540",
+    "stop_lon": "-74.153442"
+  },
+  "145": {
+    "stop_name": "SUMMIT",
+    "stop_lat": "40.716549",
+    "stop_lon": "-74.357807"
+  },
+  "146": {
+    "stop_name": "TETERBORO",
+    "stop_lat": "40.864858",
+    "stop_lon": "-74.062676"
+  },
+  "147": {
+    "stop_name": "TOWACO",
+    "stop_lat": "40.922809",
+    "stop_lon": "-74.343842"
+  },
+  "148": {
+    "stop_name": "TRENTON TRANSIT CENTER",
+    "stop_lat": "40.218515",
+    "stop_lon": "-74.753926"
+  },
+  "149": {
+    "stop_name": "TUXEDO",
+    "stop_lat": "41.194208",
+    "stop_lon": "-74.184460"
+  },
+  "150": {
+    "stop_name": "UPPER MONTCLAIR",
+    "stop_lat": "40.842004",
+    "stop_lon": "-74.209368"
+  },
+  "151": {
+    "stop_name": "WALDWICK",
+    "stop_lat": "41.012734",
+    "stop_lon": "-74.123412"
+  },
+  "152": {
+    "stop_name": "WALNUT STREET",
+    "stop_lat": "40.817218",
+    "stop_lon": "-74.209630"
+  },
+  "153": {
+    "stop_name": "WATCHUNG AVENUE",
+    "stop_lat": "40.829514",
+    "stop_lon": "-74.206934"
+  },
+  "154": {
+    "stop_name": "WATSESSING AVENUE",
+    "stop_lat": "40.782743",
+    "stop_lon": "-74.198451"
+  },
+  "155": {
+    "stop_name": "WESTFIELD",
+    "stop_lat": "40.649448",
+    "stop_lon": "-74.347629"
+  },
+  "156": {
+    "stop_name": "WESTWOOD",
+    "stop_lat": "40.990817",
+    "stop_lon": "-74.032696"
+  },
+  "157": {
+    "stop_name": "WHITE HOUSE",
+    "stop_lat": "40.615611",
+    "stop_lon": "-74.770660"
+  },
+  "158": {
+    "stop_name": "WOODBRIDGE",
+    "stop_lat": "40.556610",
+    "stop_lon": "-74.277751"
+  },
+  "159": {
+    "stop_name": "WOODCLIFF LAKE",
+    "stop_lat": "41.021078",
+    "stop_lon": "-74.040775"
+  },
+  "160": {
+    "stop_name": "WOOD-RIDGE",
+    "stop_lat": "40.843974",
+    "stop_lon": "-74.078719"
+  },
+  "6900": {
+    "stop_name": "MILITARY PARK LIGHT RAIL STATION",
+    "stop_lat": "40.737449",
+    "stop_lon": "-74.170883"
+  },
+  "6907": {
+    "stop_name": "DAVENPORT AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.772390",
+    "stop_lon": "-74.178272"
+  },
+  "6957": {
+    "stop_name": "NORFOLK STREET LIGHT RAIL STATION",
+    "stop_lat": "40.745319",
+    "stop_lon": "-74.183033"
+  },
+  "6966": {
+    "stop_name": "PARK AVENUE NEWARK LIGHT RAIL STATION",
+    "stop_lat": "40.758560",
+    "stop_lon": "-74.184941"
+  },
+  "6995": {
+    "stop_name": "WARREN STREET LIGHT RAIL STATION",
+    "stop_lat": "40.742439",
+    "stop_lon": "-74.181183"
+  },
+  "6997": {
+    "stop_name": "WASHINGTON STREET LIGHT RAIL STATION",
+    "stop_lat": "40.738347",
+    "stop_lon": "-74.174081"
+  },
+  "9878": {
+    "stop_name": "PORT IMPERIAL HBLR STATION",
+    "stop_lat": "40.775919",
+    "stop_lon": "-74.012921"
+  },
+  "14984": {
+    "stop_name": "BLOOMFIELD AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.765460",
+    "stop_lon": "-74.179863"
+  },
+  "14986": {
+    "stop_name": "ORANGE STREET LIGHT RAIL STATION",
+    "stop_lat": "40.750629",
+    "stop_lon": "-74.184951"
+  },
+  "17699": {
+    "stop_name": "LINCOLN HARBOR LIGHT RAIL STATION",
+    "stop_lat": "40.761399",
+    "stop_lon": "-74.024000"
+  },
+  "26316": {
+    "stop_name": "BRANCH BROOK PARK LIGHT RAIL STATION",
+    "stop_lat": "40.779638",
+    "stop_lon": "-74.174752"
+  },
+  "26326": {
+    "stop_name": "PENN STATION LIGHT RAIL DEPARTURE",
+    "stop_lat": "40.734810",
+    "stop_lon": "-74.163603"
+  },
+  "32905": {
+    "stop_name": "HAMILTON",
+    "stop_lat": "40.255309",
+    "stop_lon": "-74.704120"
+  },
+  "32906": {
+    "stop_name": "JERSEY AVE.",
+    "stop_lat": "40.476912",
+    "stop_lon": "-74.467363"
+  },
+  "36994": {
+    "stop_name": "EXCHANGE PLACE LIGHT RAIL STATION",
+    "stop_lat": "40.716009",
+    "stop_lon": "-74.034092"
+  },
+  "36995": {
+    "stop_name": "ESSEX STREET LIGHT RAIL STATION",
+    "stop_lat": "40.712838",
+    "stop_lon": "-74.036082"
+  },
+  "36996": {
+    "stop_name": "MARIN BOULEVARD LIGHT RAIL STATION",
+    "stop_lat": "40.714428",
+    "stop_lon": "-74.043241"
+  },
+  "36997": {
+    "stop_name": "JERSEY AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.714978",
+    "stop_lon": "-74.048491"
+  },
+  "36998": {
+    "stop_name": "LIBERTY STATE PARK-RIDE LIGHT RAIL STA",
+    "stop_lat": "40.710378",
+    "stop_lon": "-74.055812"
+  },
+  "36999": {
+    "stop_name": "GARFIELD AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.710509",
+    "stop_lon": "-74.071120"
+  },
+  "37000": {
+    "stop_name": "MLK DRIVE LIGHT RAIL STATION",
+    "stop_lat": "40.712008",
+    "stop_lon": "-74.077323"
+  },
+  "37001": {
+    "stop_name": "WEST SIDE AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.714548",
+    "stop_lon": "-74.087581"
+  },
+  "37002": {
+    "stop_name": "RICHARD STREET LIGHT RAIL STATION",
+    "stop_lat": "40.699118",
+    "stop_lon": "-74.078643"
+  },
+  "37003": {
+    "stop_name": "DANFORTH AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.692357",
+    "stop_lon": "-74.087262"
+  },
+  "37004": {
+    "stop_name": "45TH STREET LIGHT RAIL STATION",
+    "stop_lat": "40.678670",
+    "stop_lon": "-74.101673"
+  },
+  "37005": {
+    "stop_name": "34TH STREET LIGHT RAIL STATION",
+    "stop_lat": "40.671778",
+    "stop_lon": "-74.107493"
+  },
+  "37169": {
+    "stop_name": "ABERDEEN-MATAWAN",
+    "stop_lat": "40.420161",
+    "stop_lon": "-74.223702"
+  },
+  "37376": {
+    "stop_name": "HARBORSIDE LIGHT RAIL STATION",
+    "stop_lat": "40.719519",
+    "stop_lon": "-74.034003"
+  },
+  "37377": {
+    "stop_name": "HARSIMUS COVE LIGHT RAIL STATION",
+    "stop_lat": "40.722668",
+    "stop_lon": "-74.037281"
+  },
+  "37378": {
+    "stop_name": "NEWPORT LIGHT RAIL STATION",
+    "stop_lat": "40.726819",
+    "stop_lon": "-74.036233"
+  },
+  "37953": {
+    "stop_name": "NEWARK AIRPORT RAILROAD STATION",
+    "stop_lat": "40.704415",
+    "stop_lon": "-74.190717"
+  },
+  "38064": {
+    "stop_name": "SILVER LAKE LIGHT RAIL STATION",
+    "stop_lat": "40.780287",
+    "stop_lon": "-74.180343"
+  },
+  "38065": {
+    "stop_name": "GROVE STREET LIGHT RAIL STATION",
+    "stop_lat": "40.780317",
+    "stop_lon": "-74.187931"
+  },
+  "38081": {
+    "stop_name": "MSU",
+    "stop_lat": "40.869782",
+    "stop_lon": "-74.197439"
+  },
+  "38105": {
+    "stop_name": "UNION",
+    "stop_lat": "40.683663",
+    "stop_lon": "-74.238605"
+  },
+  "38174": {
+    "stop_name": "FRANK R LAUTENBERG SECAUCUS LOWER LEVEL",
+    "stop_lat": "40.761188",
+    "stop_lon": "-74.075821"
+  },
+  "38187": {
+    "stop_name": "FRANK R LAUTENBERG SECAUCUS UPPER LEVEL",
+    "stop_lat": "40.761188",
+    "stop_lon": "-74.075821"
+  },
+  "38229": {
+    "stop_name": "22ND STREET LIGHT RAIL STATION",
+    "stop_lat": "40.661277",
+    "stop_lon": "-74.116410"
+  },
+  "38291": {
+    "stop_name": "TRENTON TRANSIT CENTER LIGHT RAIL STA",
+    "stop_lat": "40.218348",
+    "stop_lon": "-74.755194"
+  },
+  "38292": {
+    "stop_name": "HAMILTON AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.211928",
+    "stop_lon": "-74.755882"
+  },
+  "38293": {
+    "stop_name": "CASS STREET LIGHT RAIL STATION",
+    "stop_lat": "40.205409",
+    "stop_lon": "-74.754313"
+  },
+  "38294": {
+    "stop_name": "BORDENTOWN LIGHT RAIL STATION",
+    "stop_lat": "40.148110",
+    "stop_lon": "-74.716271"
+  },
+  "38295": {
+    "stop_name": "ROEBLING LIGHT RAIL STATION",
+    "stop_lat": "40.116909",
+    "stop_lon": "-74.770202"
+  },
+  "38296": {
+    "stop_name": "FLORENCE LIGHT RAIL STATION",
+    "stop_lat": "40.100048",
+    "stop_lon": "-74.805112"
+  },
+  "38297": {
+    "stop_name": "BURLINGTON TOWNE CTR LIGHT RAIL STATION",
+    "stop_lat": "40.077358",
+    "stop_lon": "-74.859421"
+  },
+  "38298": {
+    "stop_name": "BURLINGTON SOUTH LIGHT RAIL STATION",
+    "stop_lat": "40.074558",
+    "stop_lon": "-74.868981"
+  },
+  "38299": {
+    "stop_name": "BEVERLY/EDGEWATER PARK LIGHT RAIL STA",
+    "stop_lat": "40.061120",
+    "stop_lon": "-74.915131"
+  },
+  "38300": {
+    "stop_name": "DELANCO LIGHT RAIL STATION",
+    "stop_lat": "40.048068",
+    "stop_lon": "-74.950280"
+  },
+  "38301": {
+    "stop_name": "RIVERSIDE LIGHT RAIL STATION",
+    "stop_lat": "40.039219",
+    "stop_lon": "-74.958842"
+  },
+  "38302": {
+    "stop_name": "CINNAMINSON LIGHT RAIL STATION",
+    "stop_lat": "40.016557",
+    "stop_lon": "-74.999942"
+  },
+  "38303": {
+    "stop_name": "RIVERTON LIGHT RAIL STATION",
+    "stop_lat": "40.008939",
+    "stop_lon": "-75.013082"
+  },
+  "38304": {
+    "stop_name": "PALMYRA LIGHT RAIL STATION",
+    "stop_lat": "40.004659",
+    "stop_lon": "-75.020391"
+  },
+  "38305": {
+    "stop_name": "ROUTE 73/PENNSAUKEN LIGHT RAIL STATION",
+    "stop_lat": "39.993109",
+    "stop_lon": "-75.039610"
+  },
+  "38306": {
+    "stop_name": "36TH STREET LIGHT RAIL STATION",
+    "stop_lat": "39.960960",
+    "stop_lon": "-75.079622"
+  },
+  "38307": {
+    "stop_name": "WALTER RAND TRANSPORTATION CTR",
+    "stop_lat": "39.943258",
+    "stop_lon": "-75.120210"
+  },
+  "38308": {
+    "stop_name": "COOPER STREET/RUTGERS LIGHT RAIL STATION",
+    "stop_lat": "39.947598",
+    "stop_lon": "-75.124070"
+  },
+  "38309": {
+    "stop_name": "AQUARIUM LIGHT RAIL STATION",
+    "stop_lat": "39.945658",
+    "stop_lon": "-75.128682"
+  },
+  "38310": {
+    "stop_name": "ENTERTAINMENT CENTER LIGHT RAIL STATION",
+    "stop_lat": "39.940940",
+    "stop_lon": "-75.128473"
+  },
+  "38417": {
+    "stop_name": "RAMSEY ROUTE 17 STATION",
+    "stop_lat": "41.075130",
+    "stop_lon": "-74.145485"
+  },
+  "38441": {
+    "stop_name": "2ND STREET LIGHT RAIL STATION",
+    "stop_lat": "40.741740",
+    "stop_lon": "-74.042821"
+  },
+  "38442": {
+    "stop_name": "9TH STREET LIGHT RAIL STATION",
+    "stop_lat": "40.748867",
+    "stop_lon": "-74.038522"
+  },
+  "38578": {
+    "stop_name": "BERGENLINE AVE",
+    "stop_lat": "40.782225",
+    "stop_lon": "-74.022271"
+  },
+  "38579": {
+    "stop_name": "TONNELLE AVENUE LIGHT RAIL STATION",
+    "stop_lat": "40.787330",
+    "stop_lon": "-74.031263"
+  },
+  "39130": {
+    "stop_name": "BROAD STREET LIGHT RAIL STATION",
+    "stop_lat": "40.747209",
+    "stop_lon": "-74.171510"
+  },
+  "39131": {
+    "stop_name": "RIVERFRONT STADIUM LIGHT RAIL STATION",
+    "stop_lat": "40.745590",
+    "stop_lon": "-74.169202"
+  },
+  "39132": {
+    "stop_name": "WASHINGTON PARK LIGHT RAIL STATION",
+    "stop_lat": "40.743938",
+    "stop_lon": "-74.169853"
+  },
+  "39133": {
+    "stop_name": "ATLANTIC STREET LIGHT RAIL STATION",
+    "stop_lat": "40.744160",
+    "stop_lon": "-74.168491"
+  },
+  "39134": {
+    "stop_name": "NJPAC/CENTRE STREET LIGHT RAIL STATION",
+    "stop_lat": "40.739498",
+    "stop_lon": "-74.165580"
+  },
+  "39348": {
+    "stop_name": "HOBOKEN TERMINAL LIGHT RAIL STATION",
+    "stop_lat": "40.734059",
+    "stop_lon": "-74.029192"
+  },
+  "39472": {
+    "stop_name": "MOUNT ARLINGTON",
+    "stop_lat": "40.896590",
+    "stop_lon": "-74.632731"
+  },
+  "39635": {
+    "stop_name": "WAYNE/ROUTE 23 TRANSIT CENTER [RR]",
+    "stop_lat": "40.900254",
+    "stop_lon": "-74.256971"
+  },
+  "42545": {
+    "stop_name": "PENN STATION LIGHT RAIL ARRIVAL",
+    "stop_lat": "40.734810",
+    "stop_lon": "-74.163603"
+  },
+  "42673": {
+    "stop_name": "8TH STREET LIGHT RAIL STATION",
+    "stop_lat": "40.654298",
+    "stop_lon": "-74.129142"
+  },
+  "43288": {
+    "stop_name": "PENNSAUKEN TRANSIT CENTER LIGHT RAIL STA",
+    "stop_lat": "39.978276",
+    "stop_lon": "-75.061962"
+  },
+  "43298": {
+    "stop_name": "PENNSAUKEN TRANSIT CENTER",
+    "stop_lat": "39.977769",
+    "stop_lon": "-75.061796"
+  },
+  "43599": {
+    "stop_name": "WESMONT",
+    "stop_lat": "40.854979",
+    "stop_lon": "-74.096951"
+  }
+}
