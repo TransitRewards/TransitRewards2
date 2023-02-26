@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from "react";
 // import AddressInput from "./AddressInput";
-import getLatLong from "../services/LocationUtil";
+import {getLatLong} from "../services/LocationUtil";
 // import Map from "./Map";
 import dynamic from "next/dynamic";
+
 
 const MapWithNoSSR = dynamic(() => import("./Map"), {
   ssr: false,
 });
 
 const Location = () => {
-  const [latLong, setLatLon] = useState({});
+  const [latLon, setLatLon] = useState({});
   const [lat, setLat] = useState("");
   const [lon, setLon] = useState("");
   const [address, setAddress] = useState("");
+
+  const [onClickMap, setOnClickMap] = useState(false);
 
   const handleAddressChange = (e) => {
     setAddress(e.target.value);
@@ -23,8 +26,9 @@ const Location = () => {
     setAddress(e.target.value);
 	console.log(getLatLong(address));
     setLatLon(getLatLong(address));
-    setLat(latlon[0]);
-    setLat(latlon[1]);
+    setLat(latLon["lat"]);
+    setLon(latLon["lon"]);
+	setOnClickMap(true);
   };
 
   return (
@@ -39,7 +43,7 @@ const Location = () => {
         />
         <button type="submit">Submit</button>
       </form>
-      <MapWithNoSSR lat={lat} lon={lon} />
+      {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> }
     </div>
   );
 };

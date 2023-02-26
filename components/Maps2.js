@@ -1,28 +1,19 @@
 import { useState, useEffect } from 'react';
-import 'leaflet/dist/leaflet.css';
-import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
+import BingMapsReact from "bingmaps-react";
 
-export function ChangeView({ coords }) {
-  const map = useMap();
-  map.setView(coords, 12);
-  return null;
-}
+import React from 'react';
+import Map from 'pigeon-maps';
+import Marker from 'pigeon-marker';
 
-export default function Map() {
-  const [geoData, setGeoData] = useState({ lat: 64.536634, lng: 16.779852 });
-
-  const center = [geoData.lat, geoData.lng];
+const Maps2 = () => {
+  const center = [48.856614, 2.3522219];
+  const zoom = 12;
 
   return (
-    <MapContainer center={center} zoom={12} style={{ height: '100vh' }}>
-      <TileLayer
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {geoData.lat && geoData.lng && (
-        <Marker position={[geoData.lat, geoData.lng]} />
-      )}
-      <ChangeView coords={center} />
-    </MapContainer>
+    <Map center={center} zoom={zoom} width={600} height={400}>
+      <Marker anchor={center} payload={1} />
+    </Map>
   );
-}
+};
+
+export default Maps2;
