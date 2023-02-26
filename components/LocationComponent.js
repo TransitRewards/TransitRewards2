@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 // import AddressInput from "./AddressInput";
-import {getLatLong} from "../services/LocationUtil";
+import { getLatLong } from "../services/LocationUtil";
 // import Map from "./Map";
 import dynamic from "next/dynamic";
-import styles from '../styles/Location.module.css'
-import { getBusStopsInRange, getTrainStopsInRange } from "@/pages/api/stopsInRange";
+import styles from "../styles/Location.module.css";
+import {
+  getBusStopsInRange,
+  getTrainStopsInRange,
+} from "@/pages/api/stopsInRange";
 
 const MapWithNoSSR = dynamic(() => import("./Map"), {
   ssr: false,
@@ -12,8 +15,8 @@ const MapWithNoSSR = dynamic(() => import("./Map"), {
 
 const Location = () => {
   const [latLon, setLatLon] = useState({});
-  const [lat, setLat] = useState("");
-  const [lon, setLon] = useState("");
+  const [lat, setLat] = useState(0.0);
+  const [lon, setLon] = useState(0.0);
   const [address, setAddress] = useState("");
   const [displayResults, setdisplayResults] = useState(false);
 
@@ -26,47 +29,58 @@ const Location = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setAddress(e.target.value);
-    console.log('b4')
-	console.log(getLatLong(address));
-    console.log('after')
-    setLatLon(getLatLong(address));
-    setLat(latLon["lat"]);
-    setLon(latLon["lon"]);
-	setOnClickMap(true);
-  setdisplayResults(true);
-  console.log("latitude is "+lat+" and longitude is "+lon);
-  console.log(latLon);
-  getBusStopsInRange(lat, lon, 2);
+    console.log("b4");
+    let a = 0.0;
+    let b = 0.0;
+    getLatLong(address).then((res) => {
+      console.log("HERERERERERERERERERERER");
+      a=res["coords"]["lat"];
+      b=res["coords"]["lon"];
+      // setLat(res["coords"]["lat"]);
+      // setLon(res["coords"]["lon"]);
+      setOnClickMap(true);
+      setdisplayResults(true);
+      console.log("latitude is " + a + " and longitude is " + b);
+      console.log(latLon);
+      getBusStopsInRange(a, b, 2);
+      setLat(a);
+      setLon(b);
+    });
+    console.log("this is a " + a + " and this is b " + b);
+
   };
 
   return (
-    <div className = {styles.Contents}>
-      <div className = {styles.Header}>
-      <p>TransitRewards</p>
+    <div className={styles.Contents}>
+      <div className={styles.Header}>
+        <p>TransitRewards</p>
       </div>
-      <form className = {styles.Submission} onSubmit={handleSubmit}>
+      <form className={styles.Submission} onSubmit={handleSubmit}>
         <input
-          className= {styles.TextBox}
+          className={styles.TextBox}
           type="text"
           id="address"
           placeholder="Enter Address"
           value={address}
           onChange={handleAddressChange}
         />
-        <button className = {styles.SubmitButton} type="submit">&#62;</button>
+        <button className={styles.SubmitButton} type="submit">
+          &#62;
+        </button>
       </form>
-      {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> };
-      {/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
+      {onClickMap ? (
+        <MapWithNoSSR loc={{ lat: 0, lng: 0 }} />
+      ) : (
+        <p>Type in Map</p>
+      )}
+      ;{/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
       {/* {console.log(getBusStopsInRange(40.8268412,-74.1261215,2))} */}
       {/* {(displayResults) ? ((getBusStopsInRange(lat,lon,2)).map((object) => (
         <h1> Bus Stop Name: {object.name}      Highest Bid:   </h1>
         
       ))) : (<></>)} */}
-
       {/* {console.log("here")} */}
       {/* {console.log(getBusStopsInRange(40.5,-74.5,2))} */}
-
-
     </div>
   );
 };
