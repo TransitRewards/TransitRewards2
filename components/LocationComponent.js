@@ -34,9 +34,6 @@ const Location = () => {
 
   return (
     <div className = {styles.Contents}>
-      <div className = {styles.Header}>
-      <p>TransitRewards</p>
-      </div>
       <form className = {styles.Submission} onSubmit={handleSubmit}>
         <input
           className= {styles.TextBox}
