@@ -1,21 +1,28 @@
-import 'leaflet/dist/leaflet.css'
-import style from '../styles/Home.module.css'
+import { useState, useEffect } from 'react';
+import 'leaflet/dist/leaflet.css';
+import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 
-import { MapContainer, TileLayer } from 'react-leaflet'
-
-function Maps() {
-    return ( 
-        <MapContainer className={style.map} center={[12.505, -10.09]} zoom={15} scrollWheelZoom={true}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="http://127.0.0.1:8000/tiles/{z}/{x}/{y}.png"
-            />
-        </MapContainer>
-     );
+export function ChangeView({ coords }) {
+  const map = useMap();
+  map.setView(coords, 12);
+  return null;
 }
 
-export default Maps;
+export default function Map() {
+  const [geoData, setGeoData] = useState({ lat: 64.536634, lng: 16.779852 });
+
+  const center = [geoData.lat, geoData.lng];
+
+  return (
+    <MapContainer center={center} zoom={12} style={{ height: '100vh' }}>
+      <TileLayer
+        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      {geoData.lat && geoData.lng && (
+        <Marker position={[geoData.lat, geoData.lng]} />
+      )}
+      <ChangeView coords={center} />
+    </MapContainer>
+  );
+}

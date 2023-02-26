@@ -1,9 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AddressInput from "./AddressInput";
 import getLatLong from "../services/LocationUtil";
-import Maps from "../components/Maps";
+import Maps from "./Maps";
+import dynamic from "next/dynamic";
+
+const MapWithNoSSR = dynamic(() => import("./Maps"), {
+  ssr: false,
+});
+
 const Address = () => {
   const [address, setAddress] = useState("");
+  const [windowState, setWindowState] = useState(false);
+  useEffect(() => {
+	console.log(window);
+	if(typeof window !== "undefined")
+		setWindowState(true);
+	}, [window]);
+
   const [latlon, setLatLon] = useState({});
   const [lat, setLat] = useState("");
   const [lon, setLon] = useState("");
@@ -18,9 +31,13 @@ const Address = () => {
   return (
     <div>
       <AddressInput loc={handleSubmit} />
-      <Maps lat={lat} lon={lon}>
-        Hello
-      </Maps>
+      <MapWithNoSSR>
+        {windowState ? (
+          <h1>LOADING</h1>
+        ) : (
+          <Maps lat={lat} lon={lon} />
+        )}
+      </MapWithNoSSR>
     </div>
   );
 };
