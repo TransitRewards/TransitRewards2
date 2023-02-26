@@ -4,6 +4,7 @@ import { AppContext } from "../contexts/AuthContext";
 import { signOut } from "firebase/auth";
 import { auth } from "../firebaseconfig";
 import { useRouter } from "next/router";
+import styles from '../styles/Navbar.module.css'
 
 function Navbar(props) {
 
@@ -23,11 +24,13 @@ function Navbar(props) {
   return (
     <nav>
       <div>
+      <div className = {styles.Header}>
+      <p>TransitRewards</p>
         {/* <Link> </Link> */}
 
         {!isAuth ? (
           <>
-            <Link href="/">Login</Link>
+            <Link className = {styles.Login} href="/">Sign In &#62;</Link>
           </>
         ) : (
           <>
@@ -36,9 +39,12 @@ function Navbar(props) {
             >
               Dashboard
             </Link> */}
-            <button onClick={signUserOut}>Log Out</button>
+            
+
+              <button className = {styles.Logout} onClick={signUserOut}>Log Out &#62;</button>
           </>
         )}
+        </div>
       </div>
     </nav>
   );

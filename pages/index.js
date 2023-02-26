@@ -25,18 +25,17 @@ export default function Home() {
         <Head>
           <title>Login</title>
         </Head>
-        <body>
-          <div class="Header">
+      
+          {/* <div className="Header">
             <p>TransitRewards</p>
-          </div>
+          </div> */}
           <div className = "Aligner">
             <p className = "SignInDesc">Sign in to TransitRewards</p>
             <button onClick={signInGoogle} className = "login-button">
-              <img src = "./GoogleIcon.png"></img>
-              <span class = "button__text">Continue with Google</span>
+              <Image src = "/GoogleIcon.png" alt="Google Icon" className = "button-icon" width={20} height={20} />
+              <span className= "button__text">Continue with Google</span>
             </button>
           </div>
-        </body>
       </div>
     </>
   );

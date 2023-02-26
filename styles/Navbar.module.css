@@ -1,0 +1,93 @@
+.Header {
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+  
+    text-align: left;
+    background: rgb(26,43, 87);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.Login {
+
+    margin-left: 0;
+    margin-right: auto;
+    color: rgb(26,43, 87);
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    text-decoration: none;
+
+    position: relative;
+    margin: auto;
+    float: right;
+    margin-right: 20px;
+
+    transition: margin-top 1s;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .Login:active {
+    margin-top: 21px;
+    background-color: rgb(220,220,220);
+  }
+  
+  
+  .Login:hover {
+    background-color: rgb(230,230,230);
+  }
+  
+
+  .Logout {
+
+    margin-left: 0;
+    margin-right: auto;
+    color: rgb(133, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    text-decoration: none;
+
+    position: relative;
+    margin: auto;
+    float: right;
+    margin-right: 20px;
+
+    transition: margin-top 1s;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .Logout:active {
+    margin-top: 21px;
+    background-color: rgb(220,220,220);
+  }
+  
+  
+  .Logout:hover {
+    background-color: rgb(230,230,230);
+  }
