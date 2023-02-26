@@ -1,0 +1,89 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+
+  text-align: left;
+  background: rgb(26,43, 87);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  font-size: 20px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+.SignInDesc {
+  margin: 0;
+  margin-top: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
+
+  text-align: center;
+
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  width: 1000px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+html,body {
+  height: 100%;
+  min-height: 100%;
+}
+.Aligner {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100px);
+}
+
+.login-button {
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(238, 238, 238);
+  color: rgb(0, 0, 0);
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  border-radius: 5px;
+  border: 0;
+
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+
+  cursor: pointer;
+  transition: margin-top 1s;
+  transition: background-color 0.2s ease-in;
+}
+
+.login-button:active {
+  margin-top: 1px;
+  background-color: rgb(220,220,220);
+}
+
+
+.login-button:hover {
+  background-color: rgb(230,230,230);
+}

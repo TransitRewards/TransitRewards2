@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+
 import { auth, provider } from "../firebaseConfig";
 import { signInWithPopup } from "firebase/auth";
-import { useContext } from "react";
+import { useContext } from  "react";
 import { AppContext } from "../contexts/AuthContext";
 import { Router, useRouter } from "next/router";
 
@@ -23,9 +24,18 @@ export default function Home() {
         <Head>
           <title>Login</title>
         </Head>
-        <h1>Login</h1>
-        <p>Sign in with Google</p>
-        <button onClick={signInGoogle}>Sign in with Google</button>
+        <body>
+          <div class="Header">
+            <p>TransitRewards</p>
+          </div>
+          <div className = "Aligner">
+            <p className = "SignInDesc">Sign in to TransitRewards</p>
+            <button onClick={signInGoogle} className = "login-button">
+              <img src = "./GoogleIcon.png"></img>
+              <span class = "button__text">Continue with Google</span>
+            </button>
+          </div>
+        </body>
       </div>
     </>
   );

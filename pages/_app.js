@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../styles/home.css";
 // import Navbar from "../components/Navbar";
 import { useState, createContext } from "react";
 import { AppContext } from "../contexts/AuthContext";
