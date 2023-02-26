@@ -1,4 +1,4 @@
-{
+export const bus_stops={
   "162": {
     "stop_name": "MAIN ST AT ADAMS AVE",
     "stop_lat": "39.395538",

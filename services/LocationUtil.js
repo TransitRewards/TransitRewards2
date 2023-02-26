@@ -1,4 +1,4 @@
-import { APIKEY } from "@/API";
+import { APIKEY } from "API";
 
 export async function getLatLong(str) {
 	// console.log(APIKEY);

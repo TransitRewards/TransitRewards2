@@ -1,4 +1,4 @@
-train_db = {
+export const train_db = {
   42: 9800,
   9: 5900,
   38299: 3500,

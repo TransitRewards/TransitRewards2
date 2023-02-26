@@ -3,9 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 
 export function ChangeView({ coords }) {
-  console.log("hereeeeeeeeee")
   const map = useMap();
-  console.log(coords.lat+" "+coords.lng);
   map.setView(coords, 12);
   return null;
 }
