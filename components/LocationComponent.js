@@ -43,10 +43,11 @@ const Location = () => {
       console.log("latitude is " + a + " and longitude is " + b);
       console.log(latLon);
       getBusStopsInRange(a, b, 2);
-      setLat(a);
+      localStorage.setItem("lat", a);
+      localStorage.setItem("lon", b);
       setLon(b);
     });
-    console.log("this is a " + a + " and this is b " + b);
+    console.log("this is a " + localStorage.getItem("lat") + " and this is b " + localStorage.getItem("lon"));
 
   };
 
