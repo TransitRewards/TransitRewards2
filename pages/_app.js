@@ -8,8 +8,9 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Navbar></Navbar>
+      
       <AppContext.Provider value={{ isAuth, setIsAuth }}>
+        <Navbar></Navbar>
         <Component {...pageProps} />
       </AppContext.Provider>
     </>

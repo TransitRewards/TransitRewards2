@@ -6,7 +6,10 @@ import { auth } from "../firebaseconfig";
 import { useRouter } from "next/router";
 
 function Navbar(props) {
+
+  
   const { isAuth, setIsAuth } = useContext(AppContext);
+  
   const router = useRouter();
 
   const signUserOut = () => {
@@ -20,7 +23,7 @@ function Navbar(props) {
   return (
     <nav>
       <div>
-        <Link> </Link>
+        {/* <Link> </Link> */}
 
         {!isAuth ? (
           <>
