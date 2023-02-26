@@ -1,32 +1,45 @@
 var busData = require('../../external/bus.json');
 var trainData = require('../../external/train.json');
 
-export async function getBusStopsInRange(latitude, longitude, radius) {
+export function getBusStopsInRange(latitude, longitude, radius) {
     const busStopsInRange = [];
 
-    busData.forEach(element => {
+    // busData.forEach(element => {
+    //     if (distance(element.stop_lat, element.stop_lon, latitude, longitude) <= radius) {
+    //         busStopsInRange.push({name: element.stop_name, lat: stop_lat, lon: stop_lon});
+    //     }
+    // });
+
+    for (let i = 0; i < busData.length; i++) {
         if (distance(element.stop_lat, element.stop_lon, latitude, longitude) <= radius) {
             busStopsInRange.push({name: element.stop_name, lat: stop_lat, lon: stop_lon});
         }
-    });
+    }
 
     return busData;
 }
 
-export async function getTrainStopsInRange(latitude, longitude, radius) {
+export function getTrainStopsInRange(latitude, longitude, radius) {
     const trainStopsInRange = [];
 
-    trainData.forEach(element => {
+    // trainData.forEach(element => {
+    //     if (distance(element.stop_lat, element.stop_lon, latitude, longitude) <= radius) {
+    //         trainStopsInRange.push({name: element.stop_name, lat: stop_lat, lon: stop_lon});
+    //     }
+    // });
+
+    for (let i = 0; i < trainData.length; i++) {
         if (distance(element.stop_lat, element.stop_lon, latitude, longitude) <= radius) {
+            console.log(distance(element.stop_lat, element.stop_lon, latitude, longitude));
             trainStopsInRange.push({name: element.stop_name, lat: stop_lat, lon: stop_lon});
         }
-    });
+    }
 
     return trainData;
 }
 
-export async function distance(lat1, lon1, lat2, lon2) {
-    const earthRadius = 3958.8; // Radius of the earth in miles
+function distance(lat1, lon1, lat2, lon2) {
+    const earthRadius = 3961; // Radius of the earth in miles
     const dLat = deg2rad(lat2 - lat1); // deg2rad below
     const dLon = deg2rad(lon2 - lon1);
     const a =
