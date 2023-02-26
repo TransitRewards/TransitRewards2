@@ -49,7 +49,7 @@ const Location = () => {
         <button className = {styles.SubmitButton} type="submit">&#62;</button>
       </form>
       <div className = {styles.MapImage}> 
-        {onClickMap ? <MapWithNoSSR loc={{lat:40.5008405, lng:-74.4496061}} /> : <p>Type in Map</p> }
+        {onClickMap ? <MapWithNoSSR loc={{lat:40.5008405, lng:-74.4496061}} /> : <div/> }
       </div>
     </div>
   );

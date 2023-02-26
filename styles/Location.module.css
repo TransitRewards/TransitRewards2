@@ -85,6 +85,7 @@
   }
 
   .MapImage {
-    scale: 0.5;
-    position: absolute;
+    margin-top:160px;
+    scale: 0.9;
+    width:50%;
   }
