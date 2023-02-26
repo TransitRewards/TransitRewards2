@@ -89,6 +89,7 @@ const Location = () => {
       ) : (
         <></>
       )}
+      <input type="text" ref="someName" placeholder="Bid" />
       {/* {console.log("here")} */}
       {/* {console.log(getBusStopsInRange(40.5,-74.5,2))} */}
     </div>
