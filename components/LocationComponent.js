@@ -34,8 +34,8 @@ const Location = () => {
     let b = 0.0;
     getLatLong(address).then((res) => {
       console.log("HERERERERERERERERERERER");
-      a=res["coords"]["lat"];
-      b=res["coords"]["lon"];
+      a = res["coords"]["lat"];
+      b = res["coords"]["lon"];
       // setLat(res["coords"]["lat"]);
       // setLon(res["coords"]["lon"]);
       setOnClickMap(true);
@@ -47,8 +47,12 @@ const Location = () => {
       localStorage.setItem("lon", b);
       setLon(b);
     });
-    console.log("this is a " + localStorage.getItem("lat") + " and this is b " + localStorage.getItem("lon"));
-
+    console.log(
+      "this is a " +
+        localStorage.getItem("lat") +
+        " and this is b " +
+        localStorage.getItem("lon")
+    );
   };
 
   return (
@@ -76,10 +80,15 @@ const Location = () => {
       )}
       ;{/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
       {/* {console.log(getBusStopsInRange(40.8268412,-74.1261215,2))} */}
-      {/* {(displayResults) ? ((getBusStopsInRange(lat,lon,2)).map((object) => (
-        <h1> Bus Stop Name: {object.name}      Highest Bid:   </h1>
-        
-      ))) : (<></>)} */}
+      {displayResults ? (
+        getBusStopsInRange(
+          localStorage.getItem("lat"),
+          localStorage.getItem("lon"),
+          2
+        ).map((object) => <h1> Bus Stop Name: {object.name} Highest Bid: </h1>)
+      ) : (
+        <></>
+      )}
       {/* {console.log("here")} */}
       {/* {console.log(getBusStopsInRange(40.5,-74.5,2))} */}
     </div>
