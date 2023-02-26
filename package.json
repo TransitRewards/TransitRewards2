@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "bingmaps-react": "^1.2.10",
     "corejs": "^1.0.0",
     "dotenv": "^16.0.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
     "firebase": "^9.17.1",
+    "leaflet": "^1.9.3",
     "leaflet": "^1.9.3",
     "next": "13.2.1",
     "pigeon-maps": "^0.21.3",

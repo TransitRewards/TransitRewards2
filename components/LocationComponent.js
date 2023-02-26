@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import {getLatLong} from "../services/LocationUtil";
 // import Map from "./Map";
 import dynamic from "next/dynamic";
+import styles from '../styles/Location.module.css'
 import { getBusStopsInRange, getTrainStopsInRange } from "@/pages/api/stopsInRange";
 
 const MapWithNoSSR = dynamic(() => import("./Map"), {
@@ -34,32 +35,31 @@ const Location = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="address">Enter your address:</label>
+    <div className = {styles.Contents}>
+      <div className = {styles.Header}>
+      <p>TransitRewards</p>
+      </div>
+      <form className = {styles.Submission} onSubmit={handleSubmit}>
         <input
+          className= {styles.TextBox}
           type="text"
           id="address"
+          placeholder="Enter Address"
           value={address}
           onChange={handleAddressChange}
         />
-        <button type="submit">Submit</button>
+        <button className = {styles.SubmitButton} type="submit">&#62;</button>
       </form>
-      {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> }
+      {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> };
+      {/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
 
-      {displayResults ?
-      (getBusStopsInRange.map((objec) => {
-        <h1> Bus Stop Name: {objec.name}      Highest Bid:   </h1> //put highest bid here
-      }
-      ))
-       
-       : (<></>)
-      
+      {/* {(displayResults) ? ((getBusStopsInRange(lat,lon,2)).map((object) => (
+        <h1> Bus Stop Name: {object.name}      Highest Bid:   </h1>
+        
+      ))) : (<></>)} */}
 
-      
-      
-      }
-
+      {/* {console.log("here")} */}
+      {/* {console.log(getBusStopsInRange(40.5,-74.5,2))} */}
 
 
     </div>
