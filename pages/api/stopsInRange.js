@@ -14,11 +14,11 @@ import { trainStops } from "@/db/train_stops";
 // }
 export function getBusStopsInRange(latitude, longitude, radius) {
   const busStopsInRange = [];
-
+  console.log(latitude+" "+longitude+" "+radius)
   for (let key in busStops) {
     
     var element = busStops[key];
-    console.log("stoplat"+ element.stop_lat)
+    console.log("Distance\t"+distance(element.stop_lat, element.stop_lon, latitude, longitude))
     if (
       distance(element.stop_lat, element.stop_lon, latitude, longitude) <=
       radius
@@ -28,8 +28,8 @@ export function getBusStopsInRange(latitude, longitude, radius) {
       );
       busStopsInRange.push({
         name: element.stop_name,
-        lat: stop_lat,
-        lon: stop_lon,
+        lat: element.stop_lat,
+        lon: element.stop_lon,
       });
     }
   }

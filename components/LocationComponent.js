@@ -26,12 +26,17 @@ const Location = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setAddress(e.target.value);
+    console.log('b4')
 	console.log(getLatLong(address));
+    console.log('after')
     setLatLon(getLatLong(address));
     setLat(latLon["lat"]);
     setLon(latLon["lon"]);
 	setOnClickMap(true);
   setdisplayResults(true);
+  console.log("latitude is "+lat+" and longitude is "+lon);
+  console.log(latLon);
+  getBusStopsInRange(lat, lon, 2);
   };
 
   return (
@@ -52,7 +57,7 @@ const Location = () => {
       </form>
       {onClickMap ? <MapWithNoSSR loc={{"lat":0, "lng":0}} /> : <p>Type in Map</p> };
       {/* {console.log((getBusStopsInRange(lat,lon,2)))} */}
-
+      {/* {console.log(getBusStopsInRange(40.8268412,-74.1261215,2))} */}
       {/* {(displayResults) ? ((getBusStopsInRange(lat,lon,2)).map((object) => (
         <h1> Bus Stop Name: {object.name}      Highest Bid:   </h1>
         
