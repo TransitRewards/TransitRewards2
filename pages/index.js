@@ -15,7 +15,8 @@ export default function Home() {
     signInWithPopup(auth, provider).then((result) => {
       localStorage.setItem("isAuth", true);
       setIsAuth(true);
-      router.push("/location");
+      router.push("/");
+      // router.push("/location");
     });
   };
   return (
